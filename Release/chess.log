@@ -1,0 +1,61 @@
+﻿生成启动时间为 2014/9/7 14:06:24。
+     1>项目“C:\Users\yincheng01\Desktop\Game算法\chess\chess.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release\chess.pch" /Fo".\Release\\" /Fd".\Release\vc120.pdb" /FR".\Release\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>C:\Program Files\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\chess.pch" /Fo".\Release\\" /Fd".\Release\vc120.pdb" /FR".\Release\\" /Gd /TP /analyze- /errorReport:prompt Alphabeta_HH.cpp AlphaBetaAndTT.cpp AlphaBetaEngine.cpp AspirationSearch.cpp chess.cpp chessDlg.cpp Eveluation.cpp FAlphaBetaEngine.cpp HistoryHeuristic.cpp IDAlphabeta.cpp MoveGenerator.cpp MTD_f.cpp NegamaxEngine.cpp NegaScout_TT_HH.cpp NewGame.cpp PVS_Engine.cpp SearchEngine.cpp TranspositionTable.cpp
+         Alphabeta_HH.cpp
+         AlphaBetaAndTT.cpp
+         AlphaBetaEngine.cpp
+         AspirationSearch.cpp
+         chess.cpp
+     1>chess.cpp(52): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(5178) : 参见“CWinApp::Enable3dControls”的声明
+         chessDlg.cpp
+         Eveluation.cpp
+         FAlphaBetaEngine.cpp
+         HistoryHeuristic.cpp
+         IDAlphabeta.cpp
+         MoveGenerator.cpp
+         MTD_f.cpp
+         NegamaxEngine.cpp
+         NegaScout_TT_HH.cpp
+         NewGame.cpp
+         PVS_Engine.cpp
+         SearchEngine.cpp
+         TranspositionTable.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Release\chess.res" chess.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\chess.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /PDB:".\Release\chess.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\chess.lib" /MACHINE:X86 /SAFESEH .\Release\chess.res
+         .\Release\Alphabeta_HH.obj
+         .\Release\AlphaBetaAndTT.obj
+         .\Release\AlphaBetaEngine.obj
+         .\Release\AspirationSearch.obj
+         .\Release\chess.obj
+         .\Release\chessDlg.obj
+         .\Release\Eveluation.obj
+         .\Release\FAlphaBetaEngine.obj
+         .\Release\HistoryHeuristic.obj
+         .\Release\IDAlphabeta.obj
+         .\Release\MoveGenerator.obj
+         .\Release\MTD_f.obj
+         .\Release\NegamaxEngine.obj
+         .\Release\NegaScout_TT_HH.obj
+         .\Release\NewGame.obj
+         .\Release\PVS_Engine.obj
+         .\Release\SearchEngine.obj
+         .\Release\StdAfx.obj
+         .\Release\TranspositionTable.obj
+         chess.vcxproj -> C:\Users\yincheng01\Desktop\Game算法\chess\.\Release\chess.exe
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Release\chess.bsc" .\Release\Alphabeta_HH.sbr .\Release\AlphaBetaAndTT.sbr .\Release\AlphaBetaEngine.sbr .\Release\AspirationSearch.sbr .\Release\chess.sbr .\Release\chessDlg.sbr .\Release\Eveluation.sbr .\Release\FAlphaBetaEngine.sbr .\Release\HistoryHeuristic.sbr .\Release\IDAlphabeta.sbr .\Release\MoveGenerator.sbr .\Release\MTD_f.sbr .\Release\NegamaxEngine.sbr .\Release\NegaScout_TT_HH.sbr .\Release\NewGame.sbr .\Release\PVS_Engine.sbr .\Release\SearchEngine.sbr .\Release\StdAfx.sbr .\Release\TranspositionTable.sbr
+     1>已完成生成项目“C:\Users\yincheng01\Desktop\Game算法\chess\chess.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:03.50
